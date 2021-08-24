@@ -16,7 +16,6 @@ namespace KillDesktopToolsSometimes
         public override void OnEngineInit()
         {
             Harmony harmony = new Harmony("net.eia485.KillDesktopToolsSometimes");
-            Debug(Assembly.GetExecutingAssembly().FullName);
             harmony.PatchAll();
 
         }
